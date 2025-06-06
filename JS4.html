@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      input:invalid,
+      textarea:invalid {
+        border: 2px solid red;
+      }
+      span {
+        color: red;
+
+        align-items: center;
+      }
+      div {
+        display: inline-block;
+      }
+      form {
+        margin-left: 500px;
+      }
+      h3 {
+        text-indent: 3cm;
+      }
+      button {
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <b><h3>Registration Form</h3></b>
+
+        Name:<input type="text" id="input1" required /><span
+          >This field is required</span
+        >
+        <br /><br />
+        Email:<input type="email" id="input1" required /><span
+          >A valid email address is required</span
+        >
+
+        <br /><br />
+        Website:<input type="url" id="input1" required /><span
+          >A valid url is required</span
+        >
+        <br /><br />
+        Message:<textarea name="query" rows="5" cols="40" required></textarea
+        ><span>This field is required</span><br /><br />
+        <button>Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

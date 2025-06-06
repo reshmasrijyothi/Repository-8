@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var marks= window.prompt("Enter your marks(0-100)");
+        if (Number(marks)>90 && Number(marks) <=100){
+            document.write("<b>Grade:S</b>");
+        }else if (Number(marks)>80 && Number(marks) <=90){
+            document.write("<b>Grade:A</b>");
+        }else if (Number(marks)>70 && Number(marks) <=80){
+            document.write("<b>Grade:B</b>");
+        }else if (Number(marks)>60 && Number(marks) <=70){
+            document.write("<b>Grade:C</b>");
+        }else if (Number(marks)>50 && Number(marks) <=60){
+            document.write("<b>Grade:D</b>");
+        }else{
+            document.write("<b>fail</b>");
+        }
+
+    </script>
+</body>
+</html>
